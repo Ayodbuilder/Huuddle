@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(/week-6/image/bg-desktop.svg);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header img {
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+.header-text h1, p{ 
+ color: white;
+ margin-bottom: 2rem;
+ line-height: 1.4;
+}
+
+.header-text a{
+    text-decoration: none;
+    background-color: white;
+    padding: 0.8rem 4rem;
+    border-radius: 1.5rem;
+}
