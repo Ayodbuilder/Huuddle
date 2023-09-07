@@ -5,8 +5,8 @@
 }
 
 body {
-/*     background-color: hsl(257, 40%, 49%); */
-    background-color: red;
+    background-color: hsl(257, 40%, 49%);
+    /* background-color: red; */
     background-image: url(/week-6/image/bg-desktop.svg);
     min-height: 100vh;
 }
